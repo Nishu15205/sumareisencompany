@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust India - Explore Your Next Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        background-color: #f4f4f4;
+    }
+    
+    header {
+        background-color: #004d40;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    .tour-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .tour-card {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        overflow: hidden;
+        width: 280px;
+        text-align: center;
+    }
+    
+    .tour-card img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .tour-content {
+        padding: 20px;
+    }
+    
+    .tour-card h2 {
+        margin-top: 0;
+    }
+    
+    .discover-button {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        color: white;
+        background-color: #00796b;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    
+    .discover-button:hover {
+        background-color: #004d40;
+    }
+    
+    footer {
+        background-color: #004d40;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    footer nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    
+    footer nav a:hover {
+        text-decoration: underline;
+    }
+    
+    footer p {
+        margin: 5px 0;
+    }
+    
+    footer a {
+        color: #80cbc4;
+    }
+    
+    footer a:hover {
+        text-decoration: underline;
+    }
+    </style>
+    <header>
+        <h1>Welcome to  India!</h1>
+        <p>Embark on Unforgettable Journeys Across Incredible India</p>
+    </header>
+
+    <main>
+        <section class="tour-container">
+            <!-- Rajasthan Tour -->
+            <div class="tour-card" id="rajasthan">
+                <img src="hawa.png" alt="Rajasthan Tour" class="tour-image">
+                <div class="tour-content">
+                    <h2>Rajasthan Tour</h2>
+                    <p>Discover the regal charm of Rajasthan with its majestic forts, palatial havelis, and vibrant culture.</p>
+                    <a href="#rajasthan-details" class="discover-button">Discover More</a>
+                </div>
+            </div>
+
+            <!-- Golden Triangle Tour -->
+            <div class="tour-card" id="golden-triangle">
+                <img src="g3.jpeg" alt="Golden Triangle Tour" class="tour-image">
+                <div class="tour-content">
+                    <h2>Golden Triangle Tour</h2>
+                    <p>Experience the quintessential Indian journey with the iconic landmarks of Delhi, Agra, and Jaipur.</p>
+                    <a href="#golden-triangle-details" class="discover-button">Discover More</a>
+                </div>
+            </div>
+
+            <!-- Kerala Tour -->
+            <div class="tour-card" id="kerala">
+                <img src="ke1.jpg" alt="Kerala Tour" class="tour-image">
+                <div class="tour-content">
+                    <h2>Kerala Tour</h2>
+                    <p>Rejuvenate in God’s Own Country with serene backwaters, lush hill stations, and pristine beaches.</p>
+                    <a href="#kerala-details" class="discover-button">Discover More</a>
+                </div>
+            </div>
+
+            <!-- Wildlife Tour -->
+            <div class="tour-card" id="wildlife">
+                <img src="w2.jpg" alt="Wildlife Tour" class="tour-image">
+                <div class="tour-content">
+                    <h2>Wildlife Tour</h2>
+                    <p>Get up close with India’s incredible wildlife, from Bengal tigers to rich biodiversity in various parks.</p>
+                    <a href="#wildlife-details" class="discover-button">Discover More</a>
+                </div>
+            </div>
+
+            <!-- Ayurveda Tour -->
+            <div class="tour-card" id="ayurveda">
+                <img src="a3.jpg" alt="Ayurveda Tour" class="tour-image">
+                <div class="tour-content">
+                    <h2>Ayurveda Tour</h2>
+                    <p>Indulge in ancient wellness traditions with holistic treatments, yoga, and relaxation in serene settings.</p>
+                    <a href="#ayurveda-details" class="discover-button">Discover More</a>
+                </div>
+            </div>
+
+            <!-- Andaman Island Tour -->
+            <div class="tour-card" id="andaman">
+                <img src="andaman.webp" alt="Andaman Island Tour" class="tour-image">
+                <div class="tour-content">
+                    <h2>Andaman Island Tour</h2>
+                    <p>Escape to pristine beaches and crystal-clear waters of the Andaman Islands with vibrant marine life.</p>
+                    <a href="#andaman-details" class="discover-button">Discover More</a>
+                </div>
+            </div>
+
+            <!-- Footsteps of St. Thomas Tour -->
+            <div class="tour-card" id="st-thomas">
+                <img src="ke1.jpg" alt="Footsteps of St. Thomas Tour" class="tour-image">
+                <div class="tour-content">
+                    <h2>Footsteps of St. Thomas Tour</h2>
+                    <p>Trace the path of St. Thomas with historic churches, ancient traditions, and rich cultural heritage.</p>
+                    <a href="#st-thomas-details" class="discover-button">Discover More</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Start Your Adventure Today!</p>
+            <p>Whether you're seeking cultural richness, natural beauty, or spiritual rejuvenation, our curated tours promise unforgettable experiences. Click "Discover More" for detailed itineraries and booking information.</p>
+            <nav>
+                <a href="#contact">Contact Us</a> | 
+                <a href="#about">About Us</a> | 
+                <a href="#book">Book Now</a>
+            </nav>
+            <p>Follow Us on Social Media: 
+                <a href="#">Facebook</a> | 
+                <a href="#">Instagram</a> | 
+                <a href="#">Twitter</a>
+            </p>
+            <p>&copy; 2024 Wanderlust India - Your gateway to exploring the diverse wonders of India.</p>
+        </footer>
+    </main>
+    
+</body>
+</html>
